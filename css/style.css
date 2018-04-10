@@ -1,0 +1,103 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+}
+
+nav {
+  background-color: orange;
+  float: left;
+  position: fixed;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color:#ffffff;
+}
+a:visited {
+  color:#ffffff;
+}
+a:hover {
+  color:#000000;
+}
+a:active {
+  color:#9C9D75;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+figcaption {
+  font-size: 75%;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.sub-title {
+  font-size: 1.3rem;
+  padding-top: 20px;
+}
+
+.author {
+  font-weight: 900;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.story-text {
+  line-height: 1.75;
+}
+
+p {
+  padding-bottom: 25px;
+}
+
+
+figure {
+  padding-bottom: 30px;
+}
